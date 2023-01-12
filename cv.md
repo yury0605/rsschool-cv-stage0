@@ -27,7 +27,9 @@ Managing the creating, modification and supporting of web stores on Wordpress, O
 
 ### Education
 **Belorussian College of Communications Systems 2009-2015**
+
 Faculty of telecommunications
+
 Engineer of telecommunications
 
 ======
@@ -64,3 +66,8 @@ I was training English at school for 11 years in high level class, but i was not
 I took a grammar course of Dmitry Kolesnikov at 2022.
 Look videos on Youtube in English to improve the level and lexicon.
 
+=======
+
+Thank you for your attention and have a nice day!
+
+![My-photo](12333.jpg)
