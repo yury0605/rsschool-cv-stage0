@@ -418,12 +418,15 @@ border: 1px solid #E3E1D5;
     /* Contact us styles start*/
     .contact_us{
       background-color: #EDF2EC;
+      min-height: 550px;
+      padding-top: 53px;
     }
+    
 .contact_us_main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+      }
 .title_contact_us{
 font-family: 'Inika';
 font-style: normal;
@@ -433,7 +436,9 @@ line-height: 52px;
 color: #499A18;
 }
 .right_div_contact_us{
- 
+  display: flex;
+  align-items: center;
+  margin-bottom: 15%;
 }
 
 .tab_contact_us{
@@ -444,6 +449,7 @@ color: #499A18;
   background-color: #D6E7D2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px;
+  
  }
 .contact_us_input {
   display: none;
@@ -472,4 +478,33 @@ color: #499A18;
   margin-top: auto;
   margin-bottom: auto;
   margin-right: -18px;
+}
+/* Contact us styles finish*/
+/* Footer styles start*/
+.footer{
+  min-height: 130px;
+  margin: 0px;
+}
+.general_footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.license{
+  width: 160px;
+}
+.text_footer{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+color: #000000;
+word-spacing: 10px;
+}
+.rolling_scopes>.text_footer{
+  word-spacing: normal;
+}
+.icons_footer{
+  display: block;
 }
