@@ -116,6 +116,7 @@ body {
   color: #010201;
   line-height: 50px;
   text-decoration: none;
+  transition: 0.5s;
 }
 .header_link:hover, .header_link:active {
   color: #E06733;
@@ -175,6 +176,7 @@ height: 407px;
   border-radius: 10px;
   background: transparent;
   margin-top: 25px;
+  transition: 0.5s;
 }
 
 .learn_more:hover, .learn_more:active{
@@ -252,6 +254,10 @@ height: 407px;
   height: 50px;
   border: 2px solid #E06733;
   border-radius: 10px;
+  transition: 0.5s;
+  }
+.service_item:hover, .service_item:active{
+    border: 2px solid #eea35d;
   }
 .service_link {
 font-family: 'Inika';
@@ -260,6 +266,10 @@ font-size: 20px;
 color: #E06733;
 text-decoration: none;
 line-height: 26px;
+transition: 0.5s;
+}
+.service_link:hover, .service:active{
+  color: #eea35d;
 }
 .cards_service{
   display: flex;
@@ -395,8 +405,12 @@ border: 1px solid #E3E1D5;
       border: 1px solid #E06733;
       border-radius: 5px;
       background: transparent;
-      
       margin-right: 0px;
+      transition: 0.5s;
+    }
+    .contact_us_gardeners_button:hover, .contact_us_gardeners_button:active{
+      color: #eea35d;
+      border: 1px solid #eea35d;
     }
     .img_prices{
       width: 152px;
@@ -471,7 +485,7 @@ color: #499A18;
 .contact_us_input:checked + .contact_us_label + .answer_contact_us {
     height: auto;
     padding: 10px 0;
-  }
+      }
 .button_contacts_us{
   width: 16px;
   height: 16px;
@@ -489,6 +503,7 @@ color: #499A18;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 25px;
 }
 .license{
   width: 160px;
@@ -507,4 +522,8 @@ word-spacing: 10px;
 }
 .icons_footer{
   display: block;
+  padding: 30px;
+}
+.footer_logo{
+  margin-right: 15px;
 }

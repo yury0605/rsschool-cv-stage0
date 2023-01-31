@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plants</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/favicon.png">
+    <script src="index.js"></script>
 </head>
 <body>
     <header class="header">
@@ -19,19 +21,19 @@
             <nav class="header_nav">
                 <ul class="header_list">
                     <li class="header_item">
-                        <a href="#!" class="header_link">Home</a>
+                        <a href="index.html" class="header_link">Home</a>
                     </li>
                     <li class="header_item">
-                        <a href="#!" class="header_link">About us</a>
+                        <a href="#about_us__link" class="header_link">About us</a>
                     </li>
                     <li class="header_item">
-                        <a href="#!" class="header_link">Service</a>
+                        <a href="#service__link" class="header_link">Service</a>
                     </li>
                     <li class="header_item">
-                        <a href="#!" class="header_link">Price</a>
+                        <a href="#price__link" class="header_link">Price</a>
                     </li>
                     <li class="header_item">
-                        <a href="#!" class="header_link">Contacts</a>
+                        <a href="#contacts__link" class="header_link">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -61,7 +63,7 @@
         </section>
 
 
-        <section class="about_us">
+        <section class="about_us" id="about_us__link">
             <div class="wrapper">
                 <div class="about_us_wrapper">
                     <div class="about_us_text">
@@ -78,7 +80,7 @@
         </section>
 
 
-        <section class="service">
+        <section class="service" id="service__link">
             <div class="wrapper">
                 <div class="service_wrapper">
                     <div class="projects_service">
@@ -131,7 +133,7 @@
             </div>
         </section>
 
-        <section class="prices">
+        <section class="prices" id="price__link">
             <div class="wrapper">
                 <div class="general_prices">
 
@@ -144,23 +146,23 @@
                                 <label class="question-label" for="question">Basics</label>
                                     <div class="answer">empty yet</div>
                                     </div>
-                                    <img src="./img/accordion_btn.png">
+                                    <img src="./img/accordion_btn.png" alt="button">
                                 </div>	   
                                 
                                 <div class="tab_prices"> 
-                                    <div class="basics_tab_prices"><input class="question-input" id="question" type="checkbox">
+                                    <div class="basics_tab_prices"><input class="question-input" id="question2" type="checkbox">
                                     <label class="question-label" for="question">Standart</label>
                                         <div class="answer">empty yet</div>
                                         </div>
-                                        <img src="./img/accordion_btn.png">
+                                        <img src="./img/accordion_btn.png" alt="button">
                                     </div>	   
                                 
                                     <div class="tab_prices"> 
-                                        <div class="basics_tab_prices"><input class="question-input" id="question" type="checkbox">
+                                        <div class="basics_tab_prices"><input class="question-input" id="question3" type="checkbox">
                                         <label class="question-label" for="question">Pro care</label>
                                             <div class="answer">empty yet</div>
                                             </div>
-                                            <img src="./img/accordion_btn.png">
+                                            <img src="./img/accordion_btn.png" alt="button">
                                         </div>	
                         </div>
                     </div>
@@ -175,7 +177,7 @@
             </div>
         </section>
 
-        <section class="contact_us">
+        <section class="contact_us" id="contacts__link">
             <div class="wrapper">
                 <div class="contact_us_main">
 
@@ -200,7 +202,12 @@
             <div class="general_footer">
                 <div class="license"><p class="text_footer">&copy; 2022 github</p></div>
                 <div class="rolling_scopes"><p class="text_footer">Rolling Scopes School</p></div>
-                <div class="icons_footer"></div>
+                <div class="icons_footer">
+                    <a href="https://rs.school/js-stage0/"><img src="./img/inst1.svg" alt="instagram-logo" class="footer_logo"></a>
+                    <a href="https://rs.school/js-stage0/"><img src="./img/fb1.svg" alt="facebook-logo" class="footer_logo"></a>
+                    <a href="https://rs.school/js-stage0/"><img src="./img/tw1.svg" alt="twitter-logo" class="footer_logo"></a>
+                    <a href="https://rs.school/js-stage0/"><img src="./img/pinterest1.svg" alt="pinterest-logo" class="footer_logo"></a>
+                </div>
             </div>
         </div>
     </footer>
